@@ -9,4 +9,7 @@ var file = __dirname + '/data/db.xml';
 console.log('file name',file);
 
 var file = __dirname + '\\data\\db.xml';
+
 console.log('file name in window',file);
+
+console.log('111');
