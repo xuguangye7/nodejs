@@ -1,0 +1,28 @@
+function Bomb(){
+这个。message = 'Bomb';
+}
+炸弹。原型。explode  =  function（）{
+  控制台。日志（此。讯息）;
+
+};
+
+var bomb =  new  Bomb（）;
+
+VAR TIMEID =  setTimeout的（炸弹。爆炸。绑定（弹），2000）;
+
+clearTimeout（timeID）;
+
+控制台。log（' start ... '）;
+
+const  timeID  =  setInterval（loop，500）;
+timeID。unref（）;
+
+function  loop（）{
+  控制台。log（'我将永远循环！'）;
+
+}
+
+setTimeout（（）=> {
+  控制台。log（' Game Over！'）;
+
+}，5000）;
