@@ -2,10 +2,10 @@
 
 const fs = require('fs'),
       dir = process.argv[2],
-      dir2 = process.argv[3],
+      dir1 = process.argv[3],
       path = require('path');
 try{
-  if(dir == 'list' && typeof(dir2)==='undefined'){    
+  if(dir == 'list' && typeof(dir1)==='undefined'){    
     //读取当前目录下所有文件的列表
     fs.readdir(__dirname,(err,files)=>{
       if(err){
