@@ -1,0 +1,9 @@
+{
+    "host": "localhost",
+    "user": "root",
+    "password": "axu.123456",
+    "database": "todo_list",
+    "connectionLimit": 10,
+    "supportBigNumbers": true
+
+}
